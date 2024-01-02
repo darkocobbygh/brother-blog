@@ -5,8 +5,8 @@ import { data } from './data/data';
 export default function Home() {
   return (
     <div className="text-red-300 sm:pl-20 pr-6 sm:pr-20 ">
-      <div className='pt-10 pl-6'>
-        <Image src={hero} alt=''/>
+      <div className='pt-10 pl-6 sm:pl-0 h-full'>
+        <Image src={hero} alt='' className='h-[450px]'/>
       </div>
       <div className='pt-8 grid pl-6 sm:pl-0 sm:grid-cols-3 gap-4'>
         {data.map((datas)=>(
